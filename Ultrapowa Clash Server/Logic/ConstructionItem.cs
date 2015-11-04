@@ -23,11 +23,14 @@ namespace UCS.Logic
 
         protected bool Locked;
 
+        protected float m_vConstructionTimeMultiplier;
+
         public ConstructionItem(Data data, Level level) : base(data, level) 
         {
             m_vLevel = level;
             m_vIsConstructing = false;
             this.UpgradeLevel = -1;
+            this.m_vConstructionTimeMultiplier = float.Parse(ConfigurationManager.AppSettings["buildTimeMultiplier"]);
         }
 
         public bool CanUpgrade()
@@ -126,6 +129,7 @@ namespace UCS.Logic
             this.X = newX;
             this.Y = newY;
             int constructionTime = GetConstructionItemData().GetConstructionTime(UpgradeLevel + 1);
+            constructionTime = (int)(constructionTime / m_vConstructionTimeMultiplier);
             if (constructionTime < 1)
             {
                 FinishConstruction();

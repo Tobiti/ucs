@@ -1,0 +1,25 @@
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\ucs.exe.config
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\obj\Debug\Ultrapowa Clash Server.csprojResolveAssemblyReference.cache
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\ucsconf.config
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\ucs.exe
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\ucs.pdb
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\EntityFramework.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\Ionic.Zip.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\MySql.Data.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\System.Data.SQLite.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\EntityFramework.xml
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\bin\Debug\System.Data.SQLite.xml
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\obj\Debug\ucs.exe
+C:\Users\tadloff\local\ucs\Ultrapowa Clash Server\obj\Debug\ucs.pdb
+C:\Users\tadloff\local\bin\Debug\ucs.exe.config
+C:\Users\tadloff\local\Debug\ucs.exe.config
+C:\Users\tadloff\local\Debug\ucsconf.config
+C:\Users\tadloff\local\Debug\ucs.exe
+C:\Users\tadloff\local\Debug\ucs.pdb

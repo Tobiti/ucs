@@ -42,6 +42,7 @@ namespace UCS.GameFiles
         public override int GetConstructionTime(int level)
         {
             return BuildTimeS[level] + BuildTimeM[level] * 60 + BuildTimeH[level] * 60 * 60 + BuildTimeD[level] * 60 * 60 * 24;
+            //TODO: Add BuildTimeMultipier
         }
 
         public List<int> GetMaxStoredResourceCounts(int level)
