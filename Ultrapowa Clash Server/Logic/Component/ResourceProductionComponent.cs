@@ -60,7 +60,7 @@ namespace UCS.Logic
 
         public void Reset()
         {
-            this.m_vTimeSinceLastClick = level.GetTime();
+            this.m_vTimeSinceLastClick = GetParent().GetLevel().GetTime();
         }
 
         public override void Load(JObject jsonObject)
