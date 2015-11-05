@@ -56,7 +56,7 @@ namespace UCS.Network
                 while (m_vIncomingPackets.TryDequeue(out p))
                 {
                     p.Client.Decrypt(p.GetData());
-                    //Console.WriteLine("R " + p.GetMessageType().ToString() + " (" + p.GetLength().ToString() + ")");
+                    Debugger.WriteLine("R " + p.GetMessageType().ToString() + " (" + p.GetLength().ToString() + ")", null, 5);
                     Logger.WriteLine(p, "R");
                     MessageManager.ProcessPacket(p);
                 }
