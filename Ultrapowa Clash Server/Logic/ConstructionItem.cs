@@ -23,14 +23,11 @@ namespace UCS.Logic
 
         protected bool Locked;
 
-        protected float m_vConstructionTimeMultiplier;
-
         public ConstructionItem(Data data, Level level) : base(data, level) 
         {
             m_vLevel = level;
             m_vIsConstructing = false;
             this.UpgradeLevel = -1;
-            this.m_vConstructionTimeMultiplier = float.Parse(ConfigurationManager.AppSettings["buildTimeMultiplier"]);
         }
 
         public bool CanUpgrade()
@@ -85,62 +82,32 @@ namespace UCS.Logic
 
         public HeroBaseComponent GetHeroBaseComponent(bool enabled = false)
         {
-            Component component = GetComponent(10, enabled);
-            if (component != null)
-            {
-                return (HeroBaseComponent)component;
-            }
-            return null;
+            return (HeroBaseComponent)GetComponent(10, enabled);
         }
 
         public UnitProductionComponent GetUnitProductionComponent(bool enabled = false)
         {
-            Component component = GetComponent(3, enabled);
-            if (component != null)
-            {
-                return (UnitProductionComponent)component;
-            }
-            return null;
+            return (UnitProductionComponent)GetComponent(3, enabled);
         }
 
         public UnitStorageComponent GetUnitStorageComponent(bool enabled = false)
         {
-            Component component = GetComponent(0, enabled);
-            if (component != null)
-            {
-                return (UnitStorageComponent)component;
-            }
-            return null;
+            return (UnitStorageComponent)GetComponent(0, enabled);
         }
 
         public UnitUpgradeComponent GetUnitUpgradeComponent(bool enabled = false)
         {
-            Component component = GetComponent(9, enabled);
-            if (component != null)
-            {
-                return (UnitUpgradeComponent)component;
-            }
-            return null;
+            return (UnitUpgradeComponent)GetComponent(9, enabled);
         }
 
         public ResourceStorageComponent GetResourceStorageComponent(bool enabled = false)
         {
-            Component component = GetComponent(6, enabled);
-            if (component != null)
-            {
-                return (ResourceStorageComponent)component;
-            }
-            return null;
+            return (ResourceStorageComponent)GetComponent(6, enabled);
         }
 
         public ResourceProductionComponent GetResourceProductionComponent(bool enabled = false)
         {
-            Component component = GetComponent(5, enabled);
-            if (component != null)
-            {
-                return (ResourceProductionComponent) component;
-            }
-            return null;
+            return (ResourceProductionComponent)GetComponent(5, enabled);
         }
 
         public int GetRemainingConstructionTime()

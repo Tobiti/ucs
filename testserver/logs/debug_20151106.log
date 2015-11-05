@@ -1,0 +1,1216 @@
+2015.11.06.00.12.32	[R] 10101 LoginMessage
+2015.11.06.00.12.32	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.12.32	[S] 20000 SessionKeyMessage
+2015.11.06.00.12.32	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.12.37	[R] 10108 KeepAliveMessage
+2015.11.06.00.12.37	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.12.42	[R] 10108 KeepAliveMessage
+2015.11.06.00.12.42	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.12.47	[R] 10108 KeepAliveMessage
+2015.11.06.00.12.47	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.12.52	[R] 10108 KeepAliveMessage
+2015.11.06.00.12.52	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.12.57	[R] 10108 KeepAliveMessage
+2015.11.06.00.12.57	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.13.04	[R] 10108 KeepAliveMessage
+2015.11.06.00.13.04	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.13.04	[R] 10101 LoginMessage
+2015.11.06.00.13.04	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.13.04	[S] 20000 SessionKeyMessage
+2015.11.06.00.13.04	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.13.09	[R] 10108 KeepAliveMessage
+2015.11.06.00.13.09	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.13.14	[R] 10108 KeepAliveMessage
+2015.11.06.00.13.14	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.13.14	Starting saving players from memory to database at 06.11.2015 00:13:14
+2015.11.06.00.13.14	Finished saving players from memory to database at 06.11.2015 00:13:14
+2015.11.06.00.13.14	Starting saving alliances from memory to database at 06.11.2015 00:13:14
+2015.11.06.00.13.14	Finished saving alliances from memory to database at 06.11.2015 00:13:14
+2015.11.06.00.13.19	[R] 10108 KeepAliveMessage
+2015.11.06.00.13.19	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.13.24	[R] 10108 KeepAliveMessage
+2015.11.06.00.13.24	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.13.29	[R] 10108 KeepAliveMessage
+2015.11.06.00.13.29	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.13.55	[R] 10101 LoginMessage
+2015.11.06.00.13.55	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.13.55	[S] 20000 SessionKeyMessage
+2015.11.06.00.13.55	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.13.55	[R] 10108 KeepAliveMessage
+2015.11.06.00.13.55	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.14.00	[R] 10108 KeepAliveMessage
+2015.11.06.00.14.00	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.14.05	[R] 10108 KeepAliveMessage
+2015.11.06.00.14.05	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.14.10	[R] 10108 KeepAliveMessage
+2015.11.06.00.14.10	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.14.15	[R] 10108 KeepAliveMessage
+2015.11.06.00.14.15	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.14.20	[R] 10108 KeepAliveMessage
+2015.11.06.00.14.20	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.14.53	Starting saving players from memory to database at 06.11.2015 00:14:53
+2015.11.06.00.14.53	Finished saving players from memory to database at 06.11.2015 00:14:53
+2015.11.06.00.14.53	Starting saving alliances from memory to database at 06.11.2015 00:14:53
+2015.11.06.00.14.53	Finished saving alliances from memory to database at 06.11.2015 00:14:53
+2015.11.06.00.16.19	[R] 10101 LoginMessage
+2015.11.06.00.16.19	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.16.19	[S] 20000 SessionKeyMessage
+2015.11.06.00.16.40	Starting saving players from memory to database at 06.11.2015 00:16:40
+2015.11.06.00.16.40	Finished saving players from memory to database at 06.11.2015 00:16:40
+2015.11.06.00.16.40	Starting saving alliances from memory to database at 06.11.2015 00:16:40
+2015.11.06.00.16.40	Finished saving alliances from memory to database at 06.11.2015 00:16:40
+2015.11.06.00.16.40	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.16.40	[R] 10108 KeepAliveMessage
+2015.11.06.00.16.40	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.16.40	[R] 10108 KeepAliveMessage
+2015.11.06.00.16.40	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.16.40	[R] 10108 KeepAliveMessage
+2015.11.06.00.16.40	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.16.40	[R] 10108 KeepAliveMessage
+2015.11.06.00.16.40	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.16.40	[R] 10108 KeepAliveMessage
+2015.11.06.00.16.40	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.16.45	[R] 10108 KeepAliveMessage
+2015.11.06.00.16.45	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.17.40	Starting saving players from memory to database at 06.11.2015 00:17:40
+2015.11.06.00.17.40	Finished saving players from memory to database at 06.11.2015 00:17:40
+2015.11.06.00.17.40	Starting saving alliances from memory to database at 06.11.2015 00:17:40
+2015.11.06.00.17.40	Finished saving alliances from memory to database at 06.11.2015 00:17:40
+2015.11.06.00.18.14	[R] 10108 KeepAliveMessage
+2015.11.06.00.18.14	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.18.14	[R] 10101 LoginMessage
+2015.11.06.00.18.14	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.18.14	[S] 20000 SessionKeyMessage
+2015.11.06.00.18.20	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.18.20	[R] 10108 KeepAliveMessage
+2015.11.06.00.18.20	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.18.24	[R] 10108 KeepAliveMessage
+2015.11.06.00.18.24	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.18.29	[R] 10108 KeepAliveMessage
+2015.11.06.00.18.29	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.18.34	[R] 10108 KeepAliveMessage
+2015.11.06.00.18.34	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.18.39	[R] 10108 KeepAliveMessage
+2015.11.06.00.18.39	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.18.40	Starting saving players from memory to database at 06.11.2015 00:18:40
+2015.11.06.00.18.40	Finished saving players from memory to database at 06.11.2015 00:18:40
+2015.11.06.00.18.40	Starting saving alliances from memory to database at 06.11.2015 00:18:40
+2015.11.06.00.18.40	Finished saving alliances from memory to database at 06.11.2015 00:18:40
+2015.11.06.00.20.06	Starting saving players from memory to database at 06.11.2015 00:20:06
+2015.11.06.00.20.06	Finished saving players from memory to database at 06.11.2015 00:20:06
+2015.11.06.00.20.06	[R] 10108 KeepAliveMessage
+2015.11.06.00.20.06	Starting saving alliances from memory to database at 06.11.2015 00:20:06
+2015.11.06.00.20.06	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.20.06	Finished saving alliances from memory to database at 06.11.2015 00:20:06
+2015.11.06.00.20.06	[R] 10101 LoginMessage
+2015.11.06.00.20.06	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.20.06	[S] 20000 SessionKeyMessage
+2015.11.06.00.20.39	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.20.39	[R] 10108 KeepAliveMessage
+2015.11.06.00.20.39	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.20.39	[R] 10108 KeepAliveMessage
+2015.11.06.00.20.39	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.20.39	[R] 10108 KeepAliveMessage
+2015.11.06.00.20.39	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.20.39	[R] 10108 KeepAliveMessage
+2015.11.06.00.20.39	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.20.39	[R] 10108 KeepAliveMessage
+2015.11.06.00.20.39	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.21.06	Starting saving players from memory to database at 06.11.2015 00:21:06
+2015.11.06.00.21.06	Finished saving players from memory to database at 06.11.2015 00:21:06
+2015.11.06.00.21.06	Starting saving alliances from memory to database at 06.11.2015 00:21:06
+2015.11.06.00.21.06	Finished saving alliances from memory to database at 06.11.2015 00:21:06
+2015.11.06.00.21.13	[R] 10108 KeepAliveMessage
+2015.11.06.00.21.13	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.21.13	[R] 10101 LoginMessage
+2015.11.06.00.21.13	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.21.13	[S] 20000 SessionKeyMessage
+2015.11.06.00.22.18	[R] 10101 LoginMessage
+2015.11.06.00.22.18	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.22.18	[S] 20000 SessionKeyMessage
+2015.11.06.00.23.06	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.23.06	[R] 10108 KeepAliveMessage
+2015.11.06.00.23.06	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.23.06	[R] 10108 KeepAliveMessage
+2015.11.06.00.23.06	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.23.06	[R] 10108 KeepAliveMessage
+2015.11.06.00.23.06	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.23.06	[R] 10108 KeepAliveMessage
+2015.11.06.00.23.06	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.23.06	[R] 10108 KeepAliveMessage
+2015.11.06.00.23.06	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.23.06	[R] 10108 KeepAliveMessage
+2015.11.06.00.23.06	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.23.16	Starting saving players from memory to database at 06.11.2015 00:23:16
+2015.11.06.00.23.16	Finished saving players from memory to database at 06.11.2015 00:23:16
+2015.11.06.00.23.16	Starting saving alliances from memory to database at 06.11.2015 00:23:16
+2015.11.06.00.23.16	Finished saving alliances from memory to database at 06.11.2015 00:23:16
+2015.11.06.00.23.28	[R] 10108 KeepAliveMessage
+2015.11.06.00.23.28	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.23.28	[R] 10101 LoginMessage
+2015.11.06.00.23.28	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.23.28	[S] 20000 SessionKeyMessage
+2015.11.06.00.24.11	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.24.11	[R] 10108 KeepAliveMessage
+2015.11.06.00.24.11	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.24.11	[R] 10108 KeepAliveMessage
+2015.11.06.00.24.11	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.24.11	[R] 10108 KeepAliveMessage
+2015.11.06.00.24.11	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.24.11	[R] 10108 KeepAliveMessage
+2015.11.06.00.24.11	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.24.11	[R] 10108 KeepAliveMessage
+2015.11.06.00.24.11	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.24.16	Starting saving players from memory to database at 06.11.2015 00:24:16
+2015.11.06.00.24.16	Finished saving players from memory to database at 06.11.2015 00:24:16
+2015.11.06.00.24.16	Starting saving alliances from memory to database at 06.11.2015 00:24:16
+2015.11.06.00.24.16	Finished saving alliances from memory to database at 06.11.2015 00:24:16
+2015.11.06.00.24.59	[R] 10101 LoginMessage
+2015.11.06.00.24.59	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.24.59	[S] 20000 SessionKeyMessage
+2015.11.06.00.25.05	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.25.05	[R] 10108 KeepAliveMessage
+2015.11.06.00.25.05	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.25.05	[R] 10108 KeepAliveMessage
+2015.11.06.00.25.05	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.25.09	[R] 10108 KeepAliveMessage
+2015.11.06.00.25.09	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.25.14	[R] 10108 KeepAliveMessage
+2015.11.06.00.25.14	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.25.19	[R] 10108 KeepAliveMessage
+2015.11.06.00.25.19	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.25.24	[R] 10108 KeepAliveMessage
+2015.11.06.00.25.24	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.25.32	[R] 10101 LoginMessage
+2015.11.06.00.25.32	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.25.32	[S] 20000 SessionKeyMessage
+2015.11.06.00.26.26	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.26.26	[R] 10108 KeepAliveMessage
+2015.11.06.00.26.26	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.26.26	[R] 10108 KeepAliveMessage
+2015.11.06.00.26.26	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.26.26	Starting saving players from memory to database at 06.11.2015 00:26:26
+2015.11.06.00.26.26	[R] 10108 KeepAliveMessage
+2015.11.06.00.26.26	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.26.26	Finished saving players from memory to database at 06.11.2015 00:26:26
+2015.11.06.00.26.26	[R] 10108 KeepAliveMessage
+2015.11.06.00.26.26	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.26.26	[R] 10108 KeepAliveMessage
+2015.11.06.00.26.26	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.26.26	Starting saving alliances from memory to database at 06.11.2015 00:26:26
+2015.11.06.00.26.26	Finished saving alliances from memory to database at 06.11.2015 00:26:26
+2015.11.06.00.26.44	[R] 10108 KeepAliveMessage
+2015.11.06.00.26.44	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.26.44	[R] 10101 LoginMessage
+2015.11.06.00.26.44	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.26.44	[S] 20000 SessionKeyMessage
+2015.11.06.00.27.15	Starting saving players from memory to database at 06.11.2015 00:27:15
+2015.11.06.00.27.15	Finished saving players from memory to database at 06.11.2015 00:27:15
+2015.11.06.00.27.15	Starting saving alliances from memory to database at 06.11.2015 00:27:15
+2015.11.06.00.27.15	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.27.15	Finished saving alliances from memory to database at 06.11.2015 00:27:15
+2015.11.06.00.27.15	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.15	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.15	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.15	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.15	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.15	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.15	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.15	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.15	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.15	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.29	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.29	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.29	[R] 10101 LoginMessage
+2015.11.06.00.27.29	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.27.29	[S] 20000 SessionKeyMessage
+2015.11.06.00.27.35	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.27.35	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.35	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.39	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.39	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.44	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.44	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.49	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.49	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.27.54	[R] 10108 KeepAliveMessage
+2015.11.06.00.27.54	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.28.15	Starting saving players from memory to database at 06.11.2015 00:28:15
+2015.11.06.00.28.15	Finished saving players from memory to database at 06.11.2015 00:28:15
+2015.11.06.00.28.15	Starting saving alliances from memory to database at 06.11.2015 00:28:15
+2015.11.06.00.28.15	Finished saving alliances from memory to database at 06.11.2015 00:28:15
+2015.11.06.00.28.32	[R] 10108 KeepAliveMessage
+2015.11.06.00.28.32	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.28.32	[R] 10101 LoginMessage
+2015.11.06.00.28.32	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.28.32	[S] 20000 SessionKeyMessage
+2015.11.06.00.28.37	An exception occured during processing of message LoginMessageSystem.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+System.ArgumentNullException: Der Wert darf nicht NULL sein.
+Parametername: value
+   bei System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   bei System.Single.Parse(String s)
+   bei UCS.Logic.ConstructionItem..ctor(Data data, Level level)
+   bei UCS.Logic.Building..ctor(Data data, Level level)
+   bei UCS.Logic.GameObjectManager.Load(JObject jsonObject)
+   bei UCS.Logic.Level.LoadFromJSON(String jsonString)
+   bei UCS.Core.ObjectManager.CreateAvatar(Int64 seed)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+2015.11.06.00.28.37	[R] 10108 KeepAliveMessage
+2015.11.06.00.28.37	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.28.42	[R] 10108 KeepAliveMessage
+2015.11.06.00.28.42	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.28.47	[R] 10108 KeepAliveMessage
+2015.11.06.00.28.47	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.28.52	[R] 10108 KeepAliveMessage
+2015.11.06.00.28.52	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.28.57	[R] 10108 KeepAliveMessage
+2015.11.06.00.28.57	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.29.15	Starting saving players from memory to database at 06.11.2015 00:29:15
+2015.11.06.00.29.15	Finished saving players from memory to database at 06.11.2015 00:29:15
+2015.11.06.00.29.15	Starting saving alliances from memory to database at 06.11.2015 00:29:15
+2015.11.06.00.29.15	Finished saving alliances from memory to database at 06.11.2015 00:29:15
+2015.11.06.00.29.35	[R] 10108 KeepAliveMessage
+2015.11.06.00.29.35	[S] 20108 KeepAliveOkMessage
+2015.11.06.00.29.35	[R] 10101 LoginMessage
+2015.11.06.00.29.35	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.29.35	[S] 20000 SessionKeyMessage
+2015.11.06.00.30.52	[R] 10101 LoginMessage
+2015.11.06.00.30.52	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.30.53	[S] 20000 SessionKeyMessage
+2015.11.06.00.31.18	Saving new account to database (player id: 292071314135)
+2015.11.06.00.31.26	[S] 20104 LoginOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[S] 24101 OwnHomeDataMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.27	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.30	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.30	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.30	[R] 10101 LoginMessage
+2015.11.06.00.31.30	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.31.30	[S] 20000 SessionKeyMessage
+2015.11.06.00.31.30	[S] 20104 LoginOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.30	[S] 24101 OwnHomeDataMessage (292071314135, NoNameYet)
+2015.11.06.00.31.35	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.35	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.36	[R] 14102 ExecuteCommandsMessage (292071314135, NoNameYet)
+2015.11.06.00.31.36		Unknown539Command (292071314135, NoNameYet)
+2015.11.06.00.31.36		Unknown539Command (292071314135, NoNameYet)
+2015.11.06.00.31.36		Unknown539Command (292071314135, NoNameYet)
+2015.11.06.00.31.36		Unknown539Command (292071314135, NoNameYet)
+2015.11.06.00.31.36		Unknown539Command (292071314135, NoNameYet)
+2015.11.06.00.31.36		Unknown539Command (292071314135, NoNameYet)
+2015.11.06.00.31.40	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.06.00.31.40	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.06.00.31.41	[R] 14102 ExecuteCommandsMessage (292071314135, NoNameYet)
+2015.11.06.00.31.43	[R] 10212 ChangeAvatarNameMessage (292071314135, NoNameYet)
+2015.11.06.00.31.43	[S] 24111 AvatarNameChangeOkMessage (292071314135, Tobiti)
+2015.11.06.00.31.44	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.31.45	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.31.45	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.31.47	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.31.50	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.31.50	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.31.51	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.31.52	Starting saving players from memory to database at 06.11.2015 00:31:52
+2015.11.06.00.31.52	Finished saving players from memory to database at 06.11.2015 00:31:52
+2015.11.06.00.31.52	Starting saving alliances from memory to database at 06.11.2015 00:31:52
+2015.11.06.00.31.52	Finished saving alliances from memory to database at 06.11.2015 00:31:52
+2015.11.06.00.31.55	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.31.55	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.31.56	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.00	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.00	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.02	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.05	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.05	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.07	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.11	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.11	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.12	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.16	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.16	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.16	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.17	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.17		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.32.21	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.21	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.21	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.21		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.32.25	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.25		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.32.26	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.26	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.27	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.30	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.30		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.32.31	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.31	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.32	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.35	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.35		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.32.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.41	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.41	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.42	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.48	[R] 10101 LoginMessage
+2015.11.06.00.32.48	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.32.48	[S] 20000 SessionKeyMessage
+2015.11.06.00.32.48	[S] 20104 LoginOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.48	[S] 24101 OwnHomeDataMessage (292071314135, Tobiti)
+2015.11.06.00.32.52	Starting saving players from memory to database at 06.11.2015 00:32:52
+2015.11.06.00.32.52	Finished saving players from memory to database at 06.11.2015 00:32:52
+2015.11.06.00.32.52	Starting saving alliances from memory to database at 06.11.2015 00:32:52
+2015.11.06.00.32.52	Finished saving alliances from memory to database at 06.11.2015 00:32:52
+2015.11.06.00.32.52	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.52		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.32.52		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.32.52		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.32.52		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.32.52		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.32.52		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.32.53	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.53	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.54	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.32.58	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.32.58	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.32.59	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.03	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.03	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.04	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.08	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.08	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.12	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.12		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.33.13	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.13	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.14	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.14		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.33.24	[R] 10101 LoginMessage
+2015.11.06.00.33.24	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.33.36	[S] 20000 SessionKeyMessage
+2015.11.06.00.33.36	[S] 20104 LoginOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.36	[S] 24101 OwnHomeDataMessage (292071314135, Tobiti)
+2015.11.06.00.33.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.37		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.33.37		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.33.37		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.33.37		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.33.37		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.33.37		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.33.41	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.41	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.42	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.43	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.43		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.33.45	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.45		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.33.46	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.46	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.47	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.47		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.33.49	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.49		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.33.51	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.51	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.52	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.33.52		ClaimAchievementRewardCommand (292071314135, Tobiti)
+2015.11.06.00.33.56	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.33.56	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.59	[R] 10101 LoginMessage
+2015.11.06.00.33.59	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.33.59	[S] 20000 SessionKeyMessage
+2015.11.06.00.33.59	[S] 20104 LoginOkMessage (292071314135, Tobiti)
+2015.11.06.00.33.59	[S] 24101 OwnHomeDataMessage (292071314135, Tobiti)
+2015.11.06.00.34.04	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.04		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.34.04		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.34.04		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.34.04		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.34.04		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.34.04		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.34.04	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.04	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.05	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.09	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.09	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.10	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.14	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.14	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.15	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.19	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.19	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.19	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.24	Starting saving players from memory to database at 06.11.2015 00:34:24
+2015.11.06.00.34.24	Finished saving players from memory to database at 06.11.2015 00:34:24
+2015.11.06.00.34.24	Starting saving alliances from memory to database at 06.11.2015 00:34:24
+2015.11.06.00.34.24	Finished saving alliances from memory to database at 06.11.2015 00:34:24
+2015.11.06.00.34.24	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.24	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.25	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.29	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.29	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.30	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.34	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.34	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.35	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.38	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.39	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.39	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.39	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.44	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.44	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.44	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.45	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.49	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.34.49	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.34.50	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.52	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.34.52		BuyBuildingCommand (292071314135, Tobiti)
+2015.11.06.00.34.52	Old Resources: 2000 New Resources: 1800 Resource Cap: 0
+2015.11.06.00.34.52	Exception occurred during command processing.System.InvalidCastException: Das Objekt des Typs "UCS.Logic.Component" kann nicht in Typ "UCS.Logic.ResourceProductionComponent" umgewandelt werden.
+   bei UCS.Logic.ConstructionItem.GetResourceProductionComponent(Boolean enabled)
+   bei UCS.Logic.ConstructionItem.FinishConstruction()
+   bei UCS.Logic.ConstructionItem.StartConstructing(Int32 newX, Int32 newY)
+   bei UCS.PacketProcessing.BuyBuildingCommand.Execute(Level level)
+   bei UCS.PacketProcessing.ExecuteCommandsMessage.Process(Level level)
+2015.11.06.00.35.24	Starting saving players from memory to database at 06.11.2015 00:35:24
+2015.11.06.00.35.24	Finished saving players from memory to database at 06.11.2015 00:35:24
+2015.11.06.00.35.24	Starting saving alliances from memory to database at 06.11.2015 00:35:24
+2015.11.06.00.35.24	Finished saving alliances from memory to database at 06.11.2015 00:35:24
+2015.11.06.00.36.06	[R] 10101 LoginMessage
+2015.11.06.00.36.06	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.36.06	[S] 20000 SessionKeyMessage
+2015.11.06.00.36.06	[S] 20104 LoginOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.06	[S] 24101 OwnHomeDataMessage (292071314135, Tobiti)
+2015.11.06.00.36.11	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.11	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.12	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.12		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.36.12		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.36.12		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.36.12		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.36.12		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.36.12		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.36.16	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.16	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.16	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.18	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.18		BuyBuildingCommand (292071314135, Tobiti)
+2015.11.06.00.36.18	Old Resources: 1800 New Resources: 1600 Resource Cap: 0
+2015.11.06.00.36.18	Exception occurred during command processing.System.InvalidCastException: Das Objekt des Typs "UCS.Logic.Component" kann nicht in Typ "UCS.Logic.ResourceProductionComponent" umgewandelt werden.
+   bei UCS.Logic.ConstructionItem.GetResourceProductionComponent(Boolean enabled)
+   bei UCS.Logic.ConstructionItem.FinishConstruction()
+   bei UCS.Logic.ConstructionItem.StartConstructing(Int32 newX, Int32 newY)
+   bei UCS.PacketProcessing.BuyBuildingCommand.Execute(Level level)
+   bei UCS.PacketProcessing.ExecuteCommandsMessage.Process(Level level)
+2015.11.06.00.36.21	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.21	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.22	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.24	Starting saving players from memory to database at 06.11.2015 00:36:24
+2015.11.06.00.36.24	Finished saving players from memory to database at 06.11.2015 00:36:24
+2015.11.06.00.36.24	Starting saving alliances from memory to database at 06.11.2015 00:36:24
+2015.11.06.00.36.24	Finished saving alliances from memory to database at 06.11.2015 00:36:24
+2015.11.06.00.36.25	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.26	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.26	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.27	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.31	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.31	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.32	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.34	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.34		BuyBuildingCommand (292071314135, Tobiti)
+2015.11.06.00.36.34	Old Resources: 2000 New Resources: 1700 Resource Cap: 1000
+2015.11.06.00.36.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.41	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.41	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.42	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.42		SpeedUpConstructionCommand (292071314135, Tobiti)
+2015.11.06.00.36.46	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.46	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.47	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.47	Exception occurred during command processing.System.InvalidCastException: Das Objekt des Typs "UCS.Logic.Component" kann nicht in Typ "UCS.Logic.ResourceProductionComponent" umgewandelt werden.
+   bei UCS.Logic.ConstructionItem.GetResourceProductionComponent(Boolean enabled)
+   bei UCS.Logic.ConstructionItem.FinishConstruction()
+   bei UCS.Logic.ConstructionItem.Tick()
+   bei UCS.Logic.GameObjectManager.Tick()
+   bei UCS.Logic.Level.Tick()
+   bei UCS.PacketProcessing.ExecuteCommandsMessage.Process(Level level)
+2015.11.06.00.36.51	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.51	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.52	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.36.56	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.36.56	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.36.57	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.01	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.01	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.02	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.06	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.06	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.07	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.11	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.11	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.12	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.16	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.16	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.17	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.21	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.21	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.22	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.24	Starting saving players from memory to database at 06.11.2015 00:37:24
+2015.11.06.00.37.24	Finished saving players from memory to database at 06.11.2015 00:37:24
+2015.11.06.00.37.24	Starting saving alliances from memory to database at 06.11.2015 00:37:24
+2015.11.06.00.37.24	Finished saving alliances from memory to database at 06.11.2015 00:37:24
+2015.11.06.00.37.26	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.26	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.27	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.31	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.31	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.32	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.41	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.41	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.42	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.46	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.46	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.47	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.51	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.51	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.52	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.37.56	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.37.56	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.37.58	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.01	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.01	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.02	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.06	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.06	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.07	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.11	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.11	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.12	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.16	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.16	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.17	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.21	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.21	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.22	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.24	Starting saving players from memory to database at 06.11.2015 00:38:24
+2015.11.06.00.38.24	Finished saving players from memory to database at 06.11.2015 00:38:24
+2015.11.06.00.38.24	Starting saving alliances from memory to database at 06.11.2015 00:38:24
+2015.11.06.00.38.24	Finished saving alliances from memory to database at 06.11.2015 00:38:24
+2015.11.06.00.38.26	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.26	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.28	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.31	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.31	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.33	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.37	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.37	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.38	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.42	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.42	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.43	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.47	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.47	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.48	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.52	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.52	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.53	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.38.57	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.38.57	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.38.58	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.02	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.02	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.03	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.07	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.07	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.08	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.12	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.12	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.13	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.17	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.17	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.18	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.22	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.22	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.23	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.24	Starting saving players from memory to database at 06.11.2015 00:39:24
+2015.11.06.00.39.24	Finished saving players from memory to database at 06.11.2015 00:39:24
+2015.11.06.00.39.24	Starting saving alliances from memory to database at 06.11.2015 00:39:24
+2015.11.06.00.39.24	Finished saving alliances from memory to database at 06.11.2015 00:39:24
+2015.11.06.00.39.27	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.27	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.28	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.32	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.32	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.33	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.37	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.37	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.38	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.42	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.42	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.43	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.47	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.47	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.48	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.39.52	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.39.52	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.39.53	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.16	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.16	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.16	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.17	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.17	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.18	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.22	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.22	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.23	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.24	Starting saving players from memory to database at 06.11.2015 00:40:24
+2015.11.06.00.40.24	Finished saving players from memory to database at 06.11.2015 00:40:24
+2015.11.06.00.40.24	Starting saving alliances from memory to database at 06.11.2015 00:40:24
+2015.11.06.00.40.24	Finished saving alliances from memory to database at 06.11.2015 00:40:24
+2015.11.06.00.40.27	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.27	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.28	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.40.57	[R] 10101 LoginMessage
+2015.11.06.00.40.57	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.40.58	[S] 20000 SessionKeyMessage
+2015.11.06.00.40.58	[S] 20104 LoginOkMessage (292071314135, Tobiti)
+2015.11.06.00.40.58	[S] 24101 OwnHomeDataMessage (292071314135, Tobiti)
+2015.11.06.00.40.59	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.40.59	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.01	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.01		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.41.01		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.41.01		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.41.01		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.41.01		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.41.01		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.41.04	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.04	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.05	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.09	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.09	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.10	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.14	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.14		BuyBuildingCommand (292071314135, Tobiti)
+2015.11.06.00.41.14	Old Resources: 2000 New Resources: 1700 Resource Cap: 2500
+2015.11.06.00.41.14	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.14	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.16	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.16		SpeedUpConstructionCommand (292071314135, Tobiti)
+2015.11.06.00.41.16	Exception occurred during command processing.System.InvalidCastException: Das Objekt des Typs "UCS.Logic.Component" kann nicht in Typ "UCS.Logic.ResourceProductionComponent" umgewandelt werden.
+   bei UCS.Logic.ConstructionItem.GetResourceProductionComponent(Boolean enabled)
+   bei UCS.Logic.ConstructionItem.FinishConstruction()
+   bei UCS.Logic.ConstructionItem.SpeedUpConstruction()
+   bei UCS.PacketProcessing.SpeedUpConstructionCommand.Execute(Level level)
+   bei UCS.PacketProcessing.ExecuteCommandsMessage.Process(Level level)
+2015.11.06.00.41.19	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.19	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.20	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.24	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.24	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.26	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.29	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.29	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.31	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.35	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.35	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.36	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.40	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.40	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.41	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.45	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.45	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.46	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.50	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.50	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.51	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.55	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.41.55	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.41.56	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.41.57	Starting saving players from memory to database at 06.11.2015 00:41:57
+2015.11.06.00.41.57	Finished saving players from memory to database at 06.11.2015 00:41:57
+2015.11.06.00.41.57	Starting saving alliances from memory to database at 06.11.2015 00:41:57
+2015.11.06.00.41.57	Finished saving alliances from memory to database at 06.11.2015 00:41:57
+2015.11.06.00.42.00	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.42.00	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.42.01	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.42.05	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.42.05	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.42.06	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.42.10	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.42.10	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.42.11	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.42.15	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.42.15	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.42.16	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.42.20	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.42.20	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.42.21	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.42.25	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.42.25	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.42.26	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.47.29	[R] 10101 LoginMessage
+2015.11.06.00.47.29	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.06.00.47.29	[S] 20000 SessionKeyMessage
+2015.11.06.00.47.29	[S] 20104 LoginOkMessage (292071314135, Tobiti)
+2015.11.06.00.47.29	[S] 24101 OwnHomeDataMessage (292071314135, Tobiti)
+2015.11.06.00.47.32	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.47.32	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.47.33	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.47.33		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.47.33		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.47.33		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.47.33		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.47.33		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.47.33		Unknown539Command (292071314135, Tobiti)
+2015.11.06.00.47.37	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.47.37	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.47.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.47.37		UpgradeBuildingCommand (292071314135, Tobiti)
+2015.11.06.00.47.42	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.47.42	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.47.43	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.47.43		SpeedUpConstructionCommand (292071314135, Tobiti)
+2015.11.06.00.47.43	Exception occurred during command processing.System.InvalidCastException: Das Objekt des Typs "UCS.Logic.Component" kann nicht in Typ "UCS.Logic.ResourceProductionComponent" umgewandelt werden.
+   bei UCS.Logic.ConstructionItem.GetResourceProductionComponent(Boolean enabled)
+   bei UCS.Logic.ConstructionItem.FinishConstruction()
+   bei UCS.Logic.ConstructionItem.SpeedUpConstruction()
+   bei UCS.PacketProcessing.SpeedUpConstructionCommand.Execute(Level level)
+   bei UCS.PacketProcessing.ExecuteCommandsMessage.Process(Level level)
+2015.11.06.00.47.47	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.47.47	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.47.48	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.47.53	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.47.53	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.47.54	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.47.58	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.47.58	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.47.59	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.03	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.03	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.04	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.08	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.08	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.13	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.13	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.14	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.18	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.18	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.19	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.23	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.23	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.24	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.28	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.28	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.28	Starting saving players from memory to database at 06.11.2015 00:48:28
+2015.11.06.00.48.28	Finished saving players from memory to database at 06.11.2015 00:48:28
+2015.11.06.00.48.28	Starting saving alliances from memory to database at 06.11.2015 00:48:28
+2015.11.06.00.48.28	Finished saving alliances from memory to database at 06.11.2015 00:48:28
+2015.11.06.00.48.29	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.33	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.33	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.34	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.38	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.38	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.39	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.43	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.43	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.44	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.48	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.48	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.49	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.53	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.53	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.54	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.48.58	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.48.58	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.48.59	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.03	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.03	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.04	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.08	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.08	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.13	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.13	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.14	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.18	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.18	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.19	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.23	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.23	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.24	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.28	Starting saving players from memory to database at 06.11.2015 00:49:28
+2015.11.06.00.49.28	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.28	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.28	Finished saving players from memory to database at 06.11.2015 00:49:28
+2015.11.06.00.49.28	Starting saving alliances from memory to database at 06.11.2015 00:49:28
+2015.11.06.00.49.28	Finished saving alliances from memory to database at 06.11.2015 00:49:28
+2015.11.06.00.49.29	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.33	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.33	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.34	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.38	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.38	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.39	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.43	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.43	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.44	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.48	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.48	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.49	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.53	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.53	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.54	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.49.58	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.49.58	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.49.59	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.03	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.03	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.04	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.08	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.08	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.13	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.13	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.14	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.18	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.18	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.19	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.23	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.23	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.24	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.28	Starting saving players from memory to database at 06.11.2015 00:50:28
+2015.11.06.00.50.28	Finished saving players from memory to database at 06.11.2015 00:50:28
+2015.11.06.00.50.28	Starting saving alliances from memory to database at 06.11.2015 00:50:28
+2015.11.06.00.50.28	Finished saving alliances from memory to database at 06.11.2015 00:50:28
+2015.11.06.00.50.28	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.28	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.29	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.33	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.33	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.34	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.38	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.38	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.39	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.43	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.43	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.44	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.48	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.48	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.49	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.53	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.53	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.54	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.50.58	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.50.58	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.50.59	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.51.03	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.51.03	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.51.04	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.51.08	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.51.08	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.51.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.51.13	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.51.13	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.51.14	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.06.00.51.18	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.06.00.51.18	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.06.00.51.19	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)

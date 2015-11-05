@@ -21,8 +21,6 @@ namespace UCS.Logic
             get { return 5; }
         }
 
-        private const int m_vType = 0x01AB3F00;
-
         private DateTime m_vTimeSinceLastClick;
         private ResourceData m_vProductionResourceData;
         private List<int> m_vResourcesPerHour;
