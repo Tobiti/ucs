@@ -38,20 +38,25 @@ namespace UCS.Logic
                 ClientAvatar ca = GetParent().GetLevel().GetPlayerAvatar();
 
                 ca.CommodityCountChangeHelper(0, this.m_vProductionResourceData, (int)this.m_vCurrentResources);
+                this.m_vCurrentResources = 0;
             }
         }
 
         public override void Tick()
         {
             ConstructionItem ci = (ConstructionItem)GetParent();
-            Level level = GetParent().GetLevel();
-            float deltaTime = (float)((level.GetTime() - this.m_vTimeSinceLastChange).TotalMilliseconds * 1000);//Time since last tick
-            if (m_vCurrentResources < this.m_vMaxResources[ci.UpgradeLevel]){
-                ClientAvatar ca = level.GetPlayerAvatar();
-                this.m_vCurrentResources += ((this.m_vResourcesPerHour[ci.UpgradeLevel] / (60f * 60f)) * float.Parse(ConfigurationManager.AppSettings["ResourceMultiplier"]) *(deltaTime));
+            if (ci.UpgradeLevel != -1)
+            {
+                Level level = GetParent().GetLevel();
+                float deltaTime = (float)((level.GetTime() - this.m_vTimeSinceLastChange).TotalMilliseconds / 1000);//Time since last tick
+                if (m_vCurrentResources < this.m_vMaxResources[ci.UpgradeLevel])
+                {
+                    ClientAvatar ca = level.GetPlayerAvatar();
+                    this.m_vCurrentResources += ((this.m_vResourcesPerHour[ci.UpgradeLevel] / (60f * 60f)) * float.Parse(ConfigurationManager.AppSettings["ResourceMultiplier"]) * (deltaTime));
 
-                this.m_vCurrentResources = Math.Min(Math.Max(this.m_vCurrentResources, 0), this.m_vMaxResources[ci.UpgradeLevel]);
-                this.m_vTimeSinceLastChange = level.GetTime();
+                    this.m_vCurrentResources = Math.Min(Math.Max(this.m_vCurrentResources, 0), this.m_vMaxResources[ci.UpgradeLevel]);
+                    this.m_vTimeSinceLastChange = level.GetTime();
+                }
             }
         }
 

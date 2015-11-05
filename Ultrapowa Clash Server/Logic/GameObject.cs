@@ -84,7 +84,17 @@ namespace UCS.Logic
             this.Y = newY;
         }
 
-        public virtual void Tick() { }
+        public virtual void Tick()
+        {
+            foreach(Component comp in m_vComponents)
+            {
+                if (comp.IsEnabled())
+                {
+                    comp.Tick();
+                }
+            }
+        }
+
 
         public JObject Save(JObject jsonObject)
         {

@@ -168,7 +168,9 @@ namespace UCS.Logic
 
         public override void Tick()
         {
-            if(IsConstructing())
+            base.Tick();
+
+            if (IsConstructing())
             {
                 if (m_vTimer.GetRemainingSeconds(m_vLevel.GetTime()) <= 0)
                     FinishConstruction();
