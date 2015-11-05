@@ -76,6 +76,7 @@ namespace UCS.PacketProcessing
                 Console.Write("\t");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Unhandled Command " + cm.ToString() + " (ignored)");
+                Console.WriteLine("Unhandled Command " + br.ToString() + " (ignored)");
                 Console.ResetColor();
                 return null;
             }

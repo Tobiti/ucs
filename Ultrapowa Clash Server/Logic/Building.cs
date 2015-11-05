@@ -42,8 +42,11 @@ namespace UCS.Logic
             }
             if (GetBuildingData().Damage[0] > 0)
                 AddComponent(new CombatComponent());
-            if (GetBuildingData().ProducesResource != String.Empty)
-                AddComponent(new ResourceProductionComponent());
+            if (GetBuildingData().ProducesResource != null && GetBuildingData().ProducesResource != String.Empty)
+            {
+                String s = GetBuildingData().ProducesResource;
+                AddComponent(new ResourceProductionComponent(this, level));
+            }
             if (GetBuildingData().MaxStoredGold[0] > 0 ||
                 GetBuildingData().MaxStoredElixir[0] > 0 ||
                 GetBuildingData().MaxStoredDarkElixir[0] > 0 ||

@@ -1,0 +1,310 @@
+2015.11.04.23.47.48	[R] 10101 LoginMessage
+2015.11.04.23.47.48	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.04.23.47.48	[S] 20103 LoginFailedMessage
+2015.11.04.23.47.53	[R] 10101 LoginMessage
+2015.11.04.23.47.53	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.04.23.47.53	[S] 20000 SessionKeyMessage
+2015.11.04.23.47.53	Saving new account to database (player id: 292071314135)
+2015.11.04.23.47.54	[S] 20104 LoginOkMessage (292071314135, NoNameYet)
+2015.11.04.23.47.54	An exception occured during processing of message LoginMessageSystem.IO.FileNotFoundException: Die Datei oder Assembly "Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c" oder eine Abhängigkeit davon wurde nicht gefunden. Das System kann die angegebene Datei nicht finden.
+Dateiname: "Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c"
+   bei UCS.Logic.ClientHome.SetHomeJSON(String json)
+   bei UCS.PacketProcessing.OwnHomeDataMessage.Encode()
+   bei UCS.Network.PacketManager.ProcessOutgoingPacket(Message p)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+
+WRN: Protokollierung der Assemblybindung ist AUS.
+Sie können die Protokollierung der Assemblybindungsfehler aktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) auf 1 festlegen.
+Hinweis: Die Protokollierung der Assemblybindungsfehler führt zu einer gewissen Leistungseinbuße.
+Sie können dieses Feature deaktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] entfernen.
+
+System.IO.FileNotFoundException: Die Datei oder Assembly "Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c" oder eine Abhängigkeit davon wurde nicht gefunden. Das System kann die angegebene Datei nicht finden.
+Dateiname: "Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c"
+   bei UCS.Logic.ClientHome.SetHomeJSON(String json)
+   bei UCS.PacketProcessing.OwnHomeDataMessage.Encode()
+   bei UCS.Network.PacketManager.ProcessOutgoingPacket(Message p)
+   bei UCS.PacketProcessing.LoginMessage.Process(Level level)
+   bei UCS.Core.MessageManager.PacketProcessing()
+
+WRN: Protokollierung der Assemblybindung ist AUS.
+Sie können die Protokollierung der Assemblybindungsfehler aktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) auf 1 festlegen.
+Hinweis: Die Protokollierung der Assemblybindungsfehler führt zu einer gewissen Leistungseinbuße.
+Sie können dieses Feature deaktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] entfernen.
+
+2015.11.04.23.47.54	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.47.54	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.47.58	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.47.58	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.02	Starting saving players from memory to database at 04.11.2015 23:48:02
+2015.11.04.23.48.02	Finished saving players from memory to database at 04.11.2015 23:48:02
+2015.11.04.23.48.02	Starting saving alliances from memory to database at 04.11.2015 23:48:02
+2015.11.04.23.48.02	Finished saving alliances from memory to database at 04.11.2015 23:48:02
+2015.11.04.23.48.03	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.03	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.31	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.33	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.33	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.38	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.38	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.44	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.44	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.49	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.49	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.54	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.54	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.48.59	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.48.59	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.50.24	[R] 10101 LoginMessage
+2015.11.04.23.50.24	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.04.23.50.24	[S] 20000 SessionKeyMessage
+2015.11.04.23.50.24	[S] 20104 LoginOkMessage (292071314135, NoNameYet)
+2015.11.04.23.50.25	[S] 24101 OwnHomeDataMessage (292071314135, NoNameYet)
+2015.11.04.23.50.28	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.50.28	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.50.29	[R] 14102 ExecuteCommandsMessage (292071314135, NoNameYet)
+2015.11.04.23.50.29		Unknown539Command (292071314135, NoNameYet)
+2015.11.04.23.50.29		Unknown539Command (292071314135, NoNameYet)
+2015.11.04.23.50.29		Unknown539Command (292071314135, NoNameYet)
+2015.11.04.23.50.29		Unknown539Command (292071314135, NoNameYet)
+2015.11.04.23.50.29		Unknown539Command (292071314135, NoNameYet)
+2015.11.04.23.50.29		Unknown539Command (292071314135, NoNameYet)
+2015.11.04.23.50.31	[R] 14102 ExecuteCommandsMessage (292071314135, NoNameYet)
+2015.11.04.23.50.33	[R] 10108 KeepAliveMessage (292071314135, NoNameYet)
+2015.11.04.23.50.33	[S] 20108 KeepAliveOkMessage (292071314135, NoNameYet)
+2015.11.04.23.50.34	[R] 14102 ExecuteCommandsMessage (292071314135, NoNameYet)
+2015.11.04.23.50.36	[R] 10212 ChangeAvatarNameMessage (292071314135, NoNameYet)
+2015.11.04.23.50.36	[S] 24111 AvatarNameChangeOkMessage (292071314135, Tobiti)
+2015.11.04.23.50.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.38	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.50.38	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.50.39	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.42	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.43	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.50.43	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.50.43	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.47	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.48	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.50.48	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.50.49	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.51	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.53	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.50.53	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.50.54	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.57	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.50.58	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.50.58	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.50.59	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.51.01	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.51.01		BuyBuildingCommand (292071314135, Tobiti)
+2015.11.04.23.51.03	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.51.03	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.51.04	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.51.08	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.51.08	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.51.09	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.51.13	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.51.13	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.51.14	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.51.18	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.51.18	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.51.19	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.51.19	Starting saving players from memory to database at 04.11.2015 23:51:19
+2015.11.04.23.51.20	Finished saving players from memory to database at 04.11.2015 23:51:20
+2015.11.04.23.51.20	Starting saving alliances from memory to database at 04.11.2015 23:51:20
+2015.11.04.23.51.20	Finished saving alliances from memory to database at 04.11.2015 23:51:20
+2015.11.04.23.51.23	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.51.23	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.52.19	Starting saving players from memory to database at 04.11.2015 23:52:19
+2015.11.04.23.52.19	Finished saving players from memory to database at 04.11.2015 23:52:19
+2015.11.04.23.52.19	Starting saving alliances from memory to database at 04.11.2015 23:52:19
+2015.11.04.23.52.19	Finished saving alliances from memory to database at 04.11.2015 23:52:19
+2015.11.04.23.54.31	[R] 10101 LoginMessage
+2015.11.04.23.54.31	[M] Client with user id 292071314135 accessing with SAMSUNG-SM-N900A
+2015.11.04.23.54.31	[S] 20000 SessionKeyMessage
+2015.11.04.23.54.31	[S] 20104 LoginOkMessage (292071314135, Tobiti)
+2015.11.04.23.54.31	[S] 24101 OwnHomeDataMessage (292071314135, Tobiti)
+2015.11.04.23.54.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.54.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.54.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.54.37		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.54.37		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.54.37		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.54.37		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.54.37		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.54.37		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.54.41	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.54.41	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.54.42	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.54.46	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.54.46	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.54.47	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.54.51	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.54.51	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.54.52	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.54.56	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.54.56	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.54.56	Starting saving players from memory to database at 04.11.2015 23:54:56
+2015.11.04.23.54.56	Finished saving players from memory to database at 04.11.2015 23:54:56
+2015.11.04.23.54.56	Starting saving alliances from memory to database at 04.11.2015 23:54:56
+2015.11.04.23.54.56	Finished saving alliances from memory to database at 04.11.2015 23:54:56
+2015.11.04.23.54.57	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.01	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.01	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.02	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.06	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.06	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.06	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.06		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.55.06		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.55.06		Unknown539Command (292071314135, Tobiti)
+2015.11.04.23.55.10	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.11	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.11	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.13	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.16	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.16	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.17	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.21	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.21	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.22	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.22		FreeWorkerCommand (292071314135, Tobiti)
+2015.11.04.23.55.26	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.26	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.27	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.31	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.31	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.32	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.36	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.36	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.37	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.40	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.41	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.41	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.42	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.44	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.46	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.46	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.47	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.49	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.51	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.51	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.52	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.52		BuyBuildingCommand (292071314135, Tobiti)
+2015.11.04.23.55.53	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.55.53		FreeWorkerCommand (292071314135, Tobiti)
+2015.11.04.23.55.56	Starting saving players from memory to database at 04.11.2015 23:55:56
+2015.11.04.23.55.56	Finished saving players from memory to database at 04.11.2015 23:55:56
+2015.11.04.23.55.56	Starting saving alliances from memory to database at 04.11.2015 23:55:56
+2015.11.04.23.55.56	Finished saving alliances from memory to database at 04.11.2015 23:55:56
+2015.11.04.23.55.56	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.55.56	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.55.57	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.56.01	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.56.01	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.56.02	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.56.06	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.56.06	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.56.07	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.56.11	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.56.11	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.56.12	[R] 14102 ExecuteCommandsMessage (292071314135, Tobiti)
+2015.11.04.23.56.16	[R] 10108 KeepAliveMessage (292071314135, Tobiti)
+2015.11.04.23.56.16	[S] 20108 KeepAliveOkMessage (292071314135, Tobiti)
+2015.11.04.23.56.56	Starting saving players from memory to database at 04.11.2015 23:56:56
+2015.11.04.23.56.56	Finished saving players from memory to database at 04.11.2015 23:56:56
+2015.11.04.23.56.56	Starting saving alliances from memory to database at 04.11.2015 23:56:56
+2015.11.04.23.56.56	Finished saving alliances from memory to database at 04.11.2015 23:56:56
+2015.11.04.23.57.56	Starting saving players from memory to database at 04.11.2015 23:57:56
+2015.11.04.23.57.56	Finished saving players from memory to database at 04.11.2015 23:57:56
+2015.11.04.23.57.56	Starting saving alliances from memory to database at 04.11.2015 23:57:56
+2015.11.04.23.57.56	Finished saving alliances from memory to database at 04.11.2015 23:57:56
+2015.11.04.23.58.56	Starting saving players from memory to database at 04.11.2015 23:58:56
+2015.11.04.23.58.56	Finished saving players from memory to database at 04.11.2015 23:58:56
+2015.11.04.23.58.56	Starting saving alliances from memory to database at 04.11.2015 23:58:56
+2015.11.04.23.58.56	Finished saving alliances from memory to database at 04.11.2015 23:58:56
+2015.11.04.23.59.56	Starting saving players from memory to database at 04.11.2015 23:59:56
+2015.11.04.23.59.56	Finished saving players from memory to database at 04.11.2015 23:59:56
+2015.11.04.23.59.56	Starting saving alliances from memory to database at 04.11.2015 23:59:56
+2015.11.04.23.59.56	Finished saving alliances from memory to database at 04.11.2015 23:59:56
+2015.11.05.00.00.56	Starting saving players from memory to database at 05.11.2015 00:00:56
+2015.11.05.00.00.56	Finished saving players from memory to database at 05.11.2015 00:00:56
+2015.11.05.00.00.56	Starting saving alliances from memory to database at 05.11.2015 00:00:56
+2015.11.05.00.00.56	Finished saving alliances from memory to database at 05.11.2015 00:00:56
+2015.11.05.00.01.56	Starting saving players from memory to database at 05.11.2015 00:01:56
+2015.11.05.00.01.56	Finished saving players from memory to database at 05.11.2015 00:01:56
+2015.11.05.00.01.56	Starting saving alliances from memory to database at 05.11.2015 00:01:56
+2015.11.05.00.01.56	Finished saving alliances from memory to database at 05.11.2015 00:01:56
+2015.11.05.00.02.56	Starting saving players from memory to database at 05.11.2015 00:02:56
+2015.11.05.00.02.56	Finished saving players from memory to database at 05.11.2015 00:02:56
+2015.11.05.00.02.56	Starting saving alliances from memory to database at 05.11.2015 00:02:56
+2015.11.05.00.02.56	Finished saving alliances from memory to database at 05.11.2015 00:02:56
+2015.11.05.00.03.56	Starting saving players from memory to database at 05.11.2015 00:03:56
+2015.11.05.00.03.56	Finished saving players from memory to database at 05.11.2015 00:03:56
+2015.11.05.00.03.56	Starting saving alliances from memory to database at 05.11.2015 00:03:56
+2015.11.05.00.03.56	Finished saving alliances from memory to database at 05.11.2015 00:03:56
+2015.11.05.00.04.56	Starting saving players from memory to database at 05.11.2015 00:04:56
+2015.11.05.00.04.56	Finished saving players from memory to database at 05.11.2015 00:04:56
+2015.11.05.00.04.56	Starting saving alliances from memory to database at 05.11.2015 00:04:56
+2015.11.05.00.04.56	Finished saving alliances from memory to database at 05.11.2015 00:04:56
+2015.11.05.00.05.56	Starting saving players from memory to database at 05.11.2015 00:05:56
+2015.11.05.00.05.56	Finished saving players from memory to database at 05.11.2015 00:05:56
+2015.11.05.00.05.56	Starting saving alliances from memory to database at 05.11.2015 00:05:56
+2015.11.05.00.05.56	Finished saving alliances from memory to database at 05.11.2015 00:05:56
+2015.11.05.00.06.56	Starting saving players from memory to database at 05.11.2015 00:06:56
+2015.11.05.00.06.56	Finished saving players from memory to database at 05.11.2015 00:06:56
+2015.11.05.00.06.56	Starting saving alliances from memory to database at 05.11.2015 00:06:56
+2015.11.05.00.06.56	Finished saving alliances from memory to database at 05.11.2015 00:06:56
+2015.11.05.00.07.56	Starting saving players from memory to database at 05.11.2015 00:07:56
+2015.11.05.00.07.56	Finished saving players from memory to database at 05.11.2015 00:07:56
+2015.11.05.00.07.56	Starting saving alliances from memory to database at 05.11.2015 00:07:56
+2015.11.05.00.07.56	Finished saving alliances from memory to database at 05.11.2015 00:07:56
+2015.11.05.00.08.56	Starting saving players from memory to database at 05.11.2015 00:08:56
+2015.11.05.00.08.56	Finished saving players from memory to database at 05.11.2015 00:08:56
+2015.11.05.00.08.56	Starting saving alliances from memory to database at 05.11.2015 00:08:56
+2015.11.05.00.08.56	Finished saving alliances from memory to database at 05.11.2015 00:08:56
+2015.11.05.00.09.56	Starting saving players from memory to database at 05.11.2015 00:09:56
+2015.11.05.00.09.56	Finished saving players from memory to database at 05.11.2015 00:09:56
+2015.11.05.00.09.56	Starting saving alliances from memory to database at 05.11.2015 00:09:56
+2015.11.05.00.09.56	Finished saving alliances from memory to database at 05.11.2015 00:09:56
+2015.11.05.00.10.56	Starting saving players from memory to database at 05.11.2015 00:10:56
+2015.11.05.00.10.56	Finished saving players from memory to database at 05.11.2015 00:10:56
+2015.11.05.00.10.56	Starting saving alliances from memory to database at 05.11.2015 00:10:56
+2015.11.05.00.10.56	Finished saving alliances from memory to database at 05.11.2015 00:10:56
+2015.11.05.00.11.56	Starting saving players from memory to database at 05.11.2015 00:11:56
+2015.11.05.00.11.56	Finished saving players from memory to database at 05.11.2015 00:11:56
+2015.11.05.00.11.56	Starting saving alliances from memory to database at 05.11.2015 00:11:56
+2015.11.05.00.11.56	Finished saving alliances from memory to database at 05.11.2015 00:11:56
+2015.11.05.00.13.05	Starting saving players from memory to database at 05.11.2015 00:12:56
+2015.11.05.00.13.05	Finished saving players from memory to database at 05.11.2015 00:13:05
+2015.11.05.00.13.05	Starting saving alliances from memory to database at 05.11.2015 00:13:05
+2015.11.05.00.13.05	Finished saving alliances from memory to database at 05.11.2015 00:13:05
+2015.11.05.00.13.56	Starting saving players from memory to database at 05.11.2015 00:13:56
+2015.11.05.00.13.56	Finished saving players from memory to database at 05.11.2015 00:13:56
+2015.11.05.00.13.56	Starting saving alliances from memory to database at 05.11.2015 00:13:56
+2015.11.05.00.13.56	Finished saving alliances from memory to database at 05.11.2015 00:13:56
+2015.11.05.00.14.56	Starting saving players from memory to database at 05.11.2015 00:14:56
+2015.11.05.00.14.56	Finished saving players from memory to database at 05.11.2015 00:14:56
+2015.11.05.00.14.56	Starting saving alliances from memory to database at 05.11.2015 00:14:56
+2015.11.05.00.14.56	Finished saving alliances from memory to database at 05.11.2015 00:14:56
+2015.11.05.00.15.56	Starting saving players from memory to database at 05.11.2015 00:15:56
+2015.11.05.00.15.56	Finished saving players from memory to database at 05.11.2015 00:15:56
+2015.11.05.00.15.56	Starting saving alliances from memory to database at 05.11.2015 00:15:56
+2015.11.05.00.15.56	Finished saving alliances from memory to database at 05.11.2015 00:15:56
+2015.11.05.00.16.56	Starting saving players from memory to database at 05.11.2015 00:16:56
+2015.11.05.00.16.56	Finished saving players from memory to database at 05.11.2015 00:16:56
+2015.11.05.00.16.56	Starting saving alliances from memory to database at 05.11.2015 00:16:56
+2015.11.05.00.16.56	Finished saving alliances from memory to database at 05.11.2015 00:16:56
+2015.11.05.00.17.56	Starting saving players from memory to database at 05.11.2015 00:17:56
+2015.11.05.00.17.56	Finished saving players from memory to database at 05.11.2015 00:17:56
+2015.11.05.00.17.56	Starting saving alliances from memory to database at 05.11.2015 00:17:56
+2015.11.05.00.17.56	Finished saving alliances from memory to database at 05.11.2015 00:17:56

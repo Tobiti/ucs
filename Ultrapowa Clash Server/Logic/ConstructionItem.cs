@@ -108,6 +108,11 @@ namespace UCS.Logic
             return (ResourceStorageComponent)GetComponent(6, enabled);
         }
 
+        public ResourceProductionComponent GetResourceProductionComponent(bool enabled = false)
+        {
+            return (ResourceProductionComponent)GetComponent(5, enabled);
+        }
+
         public int GetRemainingConstructionTime()
         {
             return m_vTimer.GetRemainingSeconds(m_vLevel.GetTime());
@@ -146,6 +151,7 @@ namespace UCS.Logic
         public void StartUpgrading()
         {
             int constructionTime = GetConstructionItemData().GetConstructionTime(UpgradeLevel + 1);
+            constructionTime = (int)(constructionTime / m_vConstructionTimeMultiplier);
             if (constructionTime < 1)
             {
                 FinishConstruction();
