@@ -45,9 +45,9 @@ namespace UCS.Logic
             this.m_vId = id;
             this.m_vCurrentHomeId = id;
             m_vIsAvatarNameSet = 0x00;
-            m_vAvatarLevel = 9;
+            m_vAvatarLevel = Convert.ToInt32(ConfigurationManager.AppSettings["startingLevel"]);
             this.m_vAllianceId = 0;
-            m_vExperience = 115;
+            m_vExperience = Convert.ToInt32(ConfigurationManager.AppSettings["startingExperience"]);
             this.EndShieldTime = (int)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1)).TotalSeconds + Convert.ToInt32(ConfigurationManager.AppSettings["startingShieldTime"]));
             m_vCurrentGems = Convert.ToInt32(ConfigurationManager.AppSettings["startingGems"]);
             m_vScore = Convert.ToInt32(ConfigurationManager.AppSettings["startingTrophies"]);
