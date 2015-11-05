@@ -180,6 +180,10 @@ namespace UCS.Logic
             m_vIsConstructing = false;
             m_vLevel.WorkerManager.DeallocateWorker(this);
             SetUpgradeLevel(GetUpgradeLevel() + 1);
+            if(GetResourceProductionComponent() != null)
+            {
+                GetResourceProductionComponent().Reset();
+            }
             //LogicAchievementManager::refreshStatus(v48)
             //LogicLevel::refreshNewShopUnlocksTH(v50)
             //v28 = v27(v7, 10, 1);//enable

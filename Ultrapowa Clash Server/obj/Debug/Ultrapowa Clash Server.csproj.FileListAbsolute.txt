@@ -31,3 +31,7 @@ C:\Users\Tobias\Documents\ucs\Debug\ucsconf.config
 C:\Users\Tobias\Documents\ucs\Debug\ucs.exe
 C:\Users\Tobias\Documents\ucs\Debug\ucs.pdb
 C:\Users\Tobias\Documents\ucs\Ultrapowa Clash Server\obj\Debug\Ultrapowa Clash Server.csprojResolveAssemblyReference.cache
+C:\Users\tadloff\local\ucs\Debug\ucsconf.config
+C:\Users\tadloff\local\ucs\Debug\ucs.exe.config
+C:\Users\tadloff\local\ucs\Debug\ucs.exe
+C:\Users\tadloff\local\ucs\Debug\ucs.pdb

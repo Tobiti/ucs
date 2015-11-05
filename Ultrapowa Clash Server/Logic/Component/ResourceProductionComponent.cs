@@ -45,15 +45,22 @@ namespace UCS.Logic
 
             currentResources = Math.Min(Math.Max(currentResources, 0), this.m_vMaxResources[ci.UpgradeLevel]);
 
-            if (currentResources >= 10)
+            if (currentResources >= 1)
             {
                 ClientAvatar ca = ci.GetLevel().GetPlayerAvatar();
                 if (ca.GetResourceCap(this.m_vProductionResourceData) >= ca.GetResourceCount(this.m_vProductionResourceData) + currentResources)
                 {
+                    Debugger.WriteLine(String.Format("Collect {0} {1}", currentResources, this.m_vProductionResourceData.GetName()));
+
                     ca.CommodityCountChangeHelper(0, this.m_vProductionResourceData, (int)currentResources);
                     this.m_vTimeSinceLastClick = ci.GetLevel().GetTime();
                 }
             }
+        }
+
+        public void Reset()
+        {
+            this.m_vTimeSinceLastClick = level.GetTime();
         }
 
         public override void Load(JObject jsonObject)
@@ -70,7 +77,7 @@ namespace UCS.Logic
             JObject productionObject = new JObject();
             productionObject.Add("t_lastClick", this.m_vTimeSinceLastClick);
             jsonObject.Add("production", productionObject);
-            jsonObject.Add("res_time", (GetParent().GetLevel().GetTime() - this.m_vTimeSinceLastClick).TotalSeconds);
+            //jsonObject.Add("res_time", (GetParent().GetLevel().GetTime() - this.m_vTimeSinceLastClick).TotalSeconds);
 
             return jsonObject;
         }

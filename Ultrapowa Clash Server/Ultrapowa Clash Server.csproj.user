@@ -11,8 +11,8 @@
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartWorkingDirectory>C:\Users\Tobias\Documents\ucs\testserver\</StartWorkingDirectory>
+    <StartWorkingDirectory>..\testserver\</StartWorkingDirectory>
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Users\Tobias\Documents\ucs\testserver\ucs.exe</StartProgram>
+    <StartProgram>C:\Users\tadloff\local\ucs\testserver\ucs.exe</StartProgram>
   </PropertyGroup>
 </Project>
