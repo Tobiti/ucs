@@ -66,6 +66,7 @@ namespace UCS.Logic
                             }
                         }
                     }
+                    Debugger.WriteLine(string.Format("Old Resources: {0} New Resources: {1} Resource Cap: {2}", GetResourceCount((ResourceData)data), newResourceValue, GetResourceCap((ResourceData)data)), null, 5);
                     SetResourceCount((ResourceData)data, newResourceValue);
                 }
             }

@@ -28,14 +28,27 @@ namespace UCS.Core
             m_vLogLevel = level;
         }
 
-        public static void WriteLine(string text, Exception ex = null, int logLevel = 4)
+        public static void WriteLine(string text, Exception ex = null, int logLevel = 4, ConsoleColor color = ConsoleColor.White)
         {
             string content = text;
             if (ex != null)
                 content += ex.ToString();
             if (Convert.ToBoolean(ConfigurationManager.AppSettings["consoleDebug"]))
             {
+                if (color != ConsoleColor.White)
+                {
+                    Console.ForegroundColor = color;
+                }
+                else
+                {
+                    if (logLevel == 5)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    }
+                }
                 Console.WriteLine(content);
+
+                Console.ResetColor();
             }
             else
             {

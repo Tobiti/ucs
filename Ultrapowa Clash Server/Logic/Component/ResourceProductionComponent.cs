@@ -50,7 +50,7 @@ namespace UCS.Logic
                 ClientAvatar ca = ci.GetLevel().GetPlayerAvatar();
                 if (ca.GetResourceCap(this.m_vProductionResourceData) >= ca.GetResourceCount(this.m_vProductionResourceData) + currentResources)
                 {
-                    Debugger.WriteLine(String.Format("Collect {0} {1}", currentResources, this.m_vProductionResourceData.GetName()));
+                    Debugger.WriteLine(String.Format("Collect {0} {1}", (int)currentResources, this.m_vProductionResourceData.GetName()), null, 5, ConsoleColor.Green);
 
                     ca.CommodityCountChangeHelper(0, this.m_vProductionResourceData, (int)currentResources);
                     this.m_vTimeSinceLastClick = ci.GetLevel().GetTime();

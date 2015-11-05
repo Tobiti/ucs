@@ -13,6 +13,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartWorkingDirectory>..\testserver\</StartWorkingDirectory>
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Users\tadloff\local\ucs\testserver\ucs.exe</StartProgram>
+    <StartProgram>C:\Users\Tobias\Documents\ucs\testserver\ucs.exe</StartProgram>
   </PropertyGroup>
 </Project>
