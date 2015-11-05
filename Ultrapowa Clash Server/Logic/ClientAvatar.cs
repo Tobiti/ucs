@@ -513,11 +513,19 @@ namespace UCS.Logic
             m_vCurrentGems -= diamondCount;
         }
 
+        /// <summary>
+        /// Adds Diamonds.
+        /// </summary>
+        /// <param name="diamondCount"></param>
         public void AddDiamonds(int diamondCount)
         {
             this.m_vCurrentGems += diamondCount;
         }
 
+        /// <summary>
+        /// Adds experience and increase level on level up.
+        /// </summary>
+        /// <param name="exp">experience to add.</param>
         public void AddExperience(int exp)
         {
             this.m_vExperience += exp;
