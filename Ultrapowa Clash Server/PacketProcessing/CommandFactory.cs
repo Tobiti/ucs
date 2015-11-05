@@ -39,11 +39,11 @@ namespace UCS.PacketProcessing
             m_vCommands.Add(0x0204, typeof(UpgradeUnitCommand));
             m_vCommands.Add(0x0205, typeof(SpeedUpUpgradeUnitCommand));
             m_vCommands.Add(0x0206, typeof(BuyResourcesCommand));
-            //m_vCommands.Add(0x0207, typeof(MissionProgress));
+            //m_vCommands.Add(0x0207, typeof(MissionProgressCommand));
             //m_vCommands.Add(0x0208, typeof(UnlockBuilding));
             m_vCommands.Add(0x0209, typeof(FreeWorkerCommand));
             //m_vCommands.Add(0x020A, typeof(BuyShield));
-            //m_vCommands.Add(0x020B, typeof(ClaimAchievementReward));
+            m_vCommands.Add(0x020B, typeof(ClaimAchievementRewardCommand));
             //m_vCommands.Add(0x020C, typeof(ToggleAttackMode));
             //m_vCommands.Add(0x020D, typeof(LoadTurret));
             //m_vCommands.Add(0x020E, typeof(BoostBuilding));

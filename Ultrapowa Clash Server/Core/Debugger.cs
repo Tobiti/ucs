@@ -31,27 +31,27 @@ namespace UCS.Core
         public static void WriteLine(string text, Exception ex = null, int logLevel = 4, ConsoleColor color = ConsoleColor.White)
         {
             string content = text;
-            if (ex != null)
-                content += ex.ToString();
-            if (Convert.ToBoolean(ConfigurationManager.AppSettings["consoleDebug"]))
+            if (logLevel <= m_vLogLevel)
             {
-                if (color != ConsoleColor.White)
+                if (ex != null)
+                    content += ex.ToString();
+                if (Convert.ToBoolean(ConfigurationManager.AppSettings["consoleDebug"]))
                 {
-                    Console.ForegroundColor = color;
-                }
-                else
-                {
-                    if (logLevel == 5)
+                    if (color != ConsoleColor.White)
                     {
-                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.ForegroundColor = color;
                     }
-                }
-                Console.WriteLine(content);
+                    else
+                    {
+                        if (logLevel == 5)
+                        {
+                            Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        }
+                    }
+                    Console.WriteLine(content);
 
-                Console.ResetColor();
-            }
-            else
-            {
+                    Console.ResetColor();
+                }
             }
             if(logLevel <= m_vLogLevel)
             {

@@ -513,6 +513,22 @@ namespace UCS.Logic
             m_vCurrentGems -= diamondCount;
         }
 
+        public void AddDiamonds(int diamondCount)
+        {
+            this.m_vCurrentGems += diamondCount;
+        }
+
+        public void AddExperience(int exp)
+        {
+            this.m_vExperience += exp;
+            int experienceCap = ((ExperienceLevelData)ObjectManager.DataTables.GetTable(10).GetDataByName(this.m_vAvatarLevel.ToString())).ExpPoints;
+            if (m_vExperience >= experienceCap)
+            {
+                this.m_vAvatarLevel += 1;
+                m_vExperience = m_vExperience - experienceCap;
+            }
+        }
+
         public List<DataSlot> NpcStars { get; set; }
         public List<DataSlot> NpcLootedGold { get; set; }
         public List<DataSlot> NpcLootedElixir { get; set; }
