@@ -85,27 +85,52 @@ namespace UCS.Logic
 
         public HeroBaseComponent GetHeroBaseComponent(bool enabled = false)
         {
-            return (HeroBaseComponent)GetComponent(10, enabled);
+            Component component = GetComponent(10, enabled);
+            if (component != null)
+            {
+                return (HeroBaseComponent)component;
+            }
+            return null;
         }
 
         public UnitProductionComponent GetUnitProductionComponent(bool enabled = false)
         {
-            return (UnitProductionComponent)GetComponent(3, enabled);
+            Component component = GetComponent(3, enabled);
+            if (component != null)
+            {
+                return (UnitProductionComponent)component;
+            }
+            return null;
         }
 
         public UnitStorageComponent GetUnitStorageComponent(bool enabled = false)
         {
-            return (UnitStorageComponent)GetComponent(0, enabled);
+            Component component = GetComponent(0, enabled);
+            if (component != null)
+            {
+                return (UnitStorageComponent)component;
+            }
+            return null;
         }
 
         public UnitUpgradeComponent GetUnitUpgradeComponent(bool enabled = false)
         {
-            return (UnitUpgradeComponent)GetComponent(9, enabled);
+            Component component = GetComponent(9, enabled);
+            if (component != null)
+            {
+                return (UnitUpgradeComponent)component;
+            }
+            return null;
         }
 
         public ResourceStorageComponent GetResourceStorageComponent(bool enabled = false)
         {
-            return (ResourceStorageComponent)GetComponent(6, enabled);
+            Component component = GetComponent(6, enabled);
+            if (component != null)
+            {
+                return (ResourceStorageComponent)component;
+            }
+            return null;
         }
 
         public ResourceProductionComponent GetResourceProductionComponent(bool enabled = false)
