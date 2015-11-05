@@ -34,7 +34,7 @@ namespace UCS.PacketProcessing
             ca.AddDiamonds(ad.DiamondReward);
             ca.AddExperience(ad.ExpReward);
 
-            //TODO: Save Achievment!!!
+            ca.SetAchievment(ad, true);
         }
     }
 }

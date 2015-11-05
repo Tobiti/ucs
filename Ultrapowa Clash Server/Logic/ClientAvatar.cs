@@ -537,6 +537,19 @@ namespace UCS.Logic
             }
         }
 
+        public void SetAchievment(AchievementData ad, bool finished)
+        {
+            int index = GetDataIndex(this.Achievements, ad);
+            int value = finished ? 1 : 0;
+            if (index != -1)
+                this.Achievements[index].Value = value;
+            else
+            {
+                DataSlot ds = new DataSlot(ad, value);
+                this.Achievements.Add(ds);
+            }
+        }
+
         public List<DataSlot> NpcStars { get; set; }
         public List<DataSlot> NpcLootedGold { get; set; }
         public List<DataSlot> NpcLootedElixir { get; set; }
