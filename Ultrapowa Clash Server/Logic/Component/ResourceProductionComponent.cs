@@ -36,9 +36,11 @@ namespace UCS.Logic
             if (this.m_vCurrentResources >= 10)
             {
                 ClientAvatar ca = GetParent().GetLevel().GetPlayerAvatar();
-
-                ca.CommodityCountChangeHelper(0, this.m_vProductionResourceData, (int)this.m_vCurrentResources);
-                this.m_vCurrentResources = 0;
+                if (ca.GetResourceCap(this.m_vProductionResourceData) >= ca.GetResourceCount(this.m_vProductionResourceData) + this.m_vCurrentResources)
+                {
+                    ca.CommodityCountChangeHelper(0, this.m_vProductionResourceData, (int)this.m_vCurrentResources);
+                    this.m_vCurrentResources = 0;
+                }
             }
         }
 
@@ -52,7 +54,7 @@ namespace UCS.Logic
                 if (m_vCurrentResources < this.m_vMaxResources[ci.UpgradeLevel])
                 {
                     ClientAvatar ca = level.GetPlayerAvatar();
-                    this.m_vCurrentResources += ((this.m_vResourcesPerHour[ci.UpgradeLevel] / (60f * 60f)) * float.Parse(ConfigurationManager.AppSettings["ResourceMultiplier"]) * (deltaTime));
+                    this.m_vCurrentResources += ((this.m_vResourcesPerHour[ci.UpgradeLevel] / (60f * 60f)) * (deltaTime));
 
                     this.m_vCurrentResources = Math.Min(Math.Max(this.m_vCurrentResources, 0), this.m_vMaxResources[ci.UpgradeLevel]);
                     this.m_vTimeSinceLastChange = level.GetTime();

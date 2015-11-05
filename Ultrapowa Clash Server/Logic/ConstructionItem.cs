@@ -134,7 +134,6 @@ namespace UCS.Logic
             this.X = newX;
             this.Y = newY;
             int constructionTime = GetConstructionItemData().GetConstructionTime(UpgradeLevel + 1);
-            constructionTime = (int)(constructionTime / m_vConstructionTimeMultiplier);
             if (constructionTime < 1)
             {
                 FinishConstruction();
@@ -151,7 +150,6 @@ namespace UCS.Logic
         public void StartUpgrading()
         {
             int constructionTime = GetConstructionItemData().GetConstructionTime(UpgradeLevel + 1);
-            constructionTime = (int)(constructionTime / m_vConstructionTimeMultiplier);
             if (constructionTime < 1)
             {
                 FinishConstruction();
