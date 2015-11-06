@@ -107,7 +107,12 @@ namespace UCS.Logic
 
         public ResourceProductionComponent GetResourceProductionComponent(bool enabled = false)
         {
-            return (ResourceProductionComponent)GetComponent(5, enabled);
+            Component comp = this.GetComponent(5, enabled);
+            if (comp.Type != -1)
+            {
+                return (ResourceProductionComponent)comp;
+            }
+            return null;
         }
 
         public int GetRemainingConstructionTime()
